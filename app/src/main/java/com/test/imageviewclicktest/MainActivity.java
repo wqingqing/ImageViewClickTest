@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.test.imageviewclicktest.utils.Polygon;
-import com.test.imageviewclicktest.weight.ClickImageView;
+import com.test.clickimageviewlibrary.utils.Polygon;
+import com.test.clickimageviewlibrary.weight.ClickImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,14 +30,12 @@ public class MainActivity extends AppCompatActivity {
         polygons.add(polygon);
 
 
-
         Polygon polygon1 = new Polygon("11");
         polygon1.add(32.14285714f, 28.30508475f);
         polygon1.add(64.71428571f, 28.30508475f);
         polygon1.add(64.71428571f, 32.96610169f);
         polygon1.add(39.28571429f, 32.96610169f);
         polygons.add(polygon1);
-
 
 
         Polygon polygon2 = new Polygon("22");
@@ -47,9 +45,7 @@ public class MainActivity extends AppCompatActivity {
         polygon2.add(40.85714286f, 55.93220339f);
         polygons.add(polygon2);
 
-
         image.setPolygons(polygons);
-
 
         image.setOnViewClickListener(new ClickImageView.OnViewClick() {
             @Override

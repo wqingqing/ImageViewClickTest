@@ -1,11 +1,11 @@
-package com.test.imageviewclicktest.weight;
+package com.test.clickimageviewlibrary.weight;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ImageView;
 
-import com.test.imageviewclicktest.utils.Polygon;
+import com.test.clickimageviewlibrary.utils.Polygon;
 
 import java.util.List;
 

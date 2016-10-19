@@ -1,4 +1,4 @@
-package com.test.imageviewclicktest.utils;
+package com.test.clickimageviewlibrary.utils;
 
 import java.util.Vector;
 
