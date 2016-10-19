@@ -9,12 +9,19 @@ compile 'com.github.wqingqing:ImageViewClickTest:1.0'
 
 
      List<Polygon> polygons = new ArrayList<>();
+
      Polygon polygon = new Polygon("00");
+
      polygon.add(42.28571429f, 34.57627119f);
+
      polygon.add(50.14285714f, 34.57627119f);
+
      polygon.add(50.14285714f, 46.18644068f);
+
      polygon.add(42.28571429f, 46.18644068f);
+
      polygons.add(polygon);
+
      ClickImageView.setPolygons(polygons);
 
 
