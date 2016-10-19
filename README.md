@@ -8,14 +8,14 @@ compile 'com.github.wqingqing:ImageViewClickTest:1.0'
 - 1 设置图片点击区域 一个区域对应一个Polygon
 
 
-    List<Polygon> polygons = new ArrayList<>();
+     List<Polygon> polygons = new ArrayList<>();
      Polygon polygon = new Polygon("00");
      polygon.add(42.28571429f, 34.57627119f);
      polygon.add(50.14285714f, 34.57627119f);
      polygon.add(50.14285714f, 46.18644068f);
      polygon.add(42.28571429f, 46.18644068f);
      polygons.add(polygon);
-    ClickImageView.setPolygons(polygons);
+     ClickImageView.setPolygons(polygons);
 
 
 
